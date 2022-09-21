@@ -11,6 +11,7 @@ public class Hourglass {
             }
             if(i<height/2)l-=2;
             else l+=2;
+            if(l==0)l+=2;
             System.out.println();
         }
     }
